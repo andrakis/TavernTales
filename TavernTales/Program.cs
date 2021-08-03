@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using TavernTales.Interface;
+
 namespace TavernTales
 {
 	static class Program
@@ -15,7 +17,7 @@ namespace TavernTales
 		static void Main() {
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
-			Application.Run(new Form1());
+			Application.Run(new CombatForm());
 		}
 	}
 }
